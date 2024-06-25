@@ -1,0 +1,42 @@
+.mainContent {
+  display: grid;
+  gap: 20px;
+}
+
+.section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.chartSection {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.weatherSection {
+  /* Styles for the weather forecast section */
+}
+
+.planningSection {
+  display: grid;
+  gap: 20px;
+}
+
+.tool {
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.chart {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

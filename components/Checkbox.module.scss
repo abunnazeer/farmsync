@@ -1,0 +1,11 @@
+// components/Checkbox.module.scss
+@import '../public/styles/variables';
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.checkboxInput {
+  margin-right: 5px;
+}

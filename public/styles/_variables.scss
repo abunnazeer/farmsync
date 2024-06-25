@@ -1,0 +1,41 @@
+// styles/_variables.scss
+
+// Colors
+$primary-color: #299B4D;
+
+$secondary-color: #6c757d;
+$success-color: #28a745;
+$danger-color: #dc3545;
+$info-color: #17a2b8;
+$warning-color: #ffc107;
+$light-color: #f8f9fa;
+$dark-color: #343a40;
+
+$stroke-color:#C5C5C5;
+
+// Color with name
+$white-color:#ffffff;
+$black-color: #000000;
+$profile-bg:#F1EEEE;
+$profile-rank: #1F1E1E;
+
+$outline-hover-color: #C5C5C5;
+
+$green-100:  #86C559;
+
+// Typography
+$body-font: 'Arial', sans-serif;
+$heading-font: 'Roboto', sans-serif;
+
+// Spacing
+$spacing-small: 10px;
+$spacing-medium: 20px;
+$spacing-large: 30px;
+
+// Z-index
+$zindex-dropdown: 1000;
+$zindex-sticky: 1020;
+$zindex-fixed: 1030;
+$zindex-modal: 1040;
+$zindex-popover: 1060;
+$zindex-tooltip: 1080;

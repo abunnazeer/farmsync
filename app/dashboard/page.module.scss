@@ -1,0 +1,41 @@
+// pages/Dashboard.module.scss
+@import '/public/styles/variables';
+.dashboard {
+  display: flex;
+
+  .hamburger {
+    position: fixed;
+    top: 10px;
+    left: 20px; /* Adjust position to your preference */
+    background: none;
+    border: none;
+    color: $stroke-color;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+}
+
+.mainContent {
+  flex: 1;
+  // padding: 0px;
+  margin-left: 250px; /* Adjust based on your left panel width */
+  transition: margin-left 0.3s;
+
+  &.collapsed {
+    margin-left: 0;
+  }
+}
+
+.content {
+  padding: 20px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.innerContent{
+  background-color: #fff;
+    border-radius: 12px;
+    height: 400px;
+
+}

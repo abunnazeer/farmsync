@@ -1,0 +1,118 @@
+@import '/public/styles/variables';
+.userProfile {
+  position: relative;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: $white-color;
+  
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar img {
+  position: relative;
+  left: 10%;
+  bottom: 60px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 8px solid #ffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.verifiedBadge img {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: 10px;
+  left: 111px;
+  
+  padding: 4px;
+  border: none !important;
+  color: #4caf50; /* Green icon color */
+}
+.userInfo {
+  position: relative;
+  left: 9%;
+  bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  p{
+    margin: 0 0 0px 0;
+    span{
+      color: $stroke-color;
+    }
+   
+  }
+  h3{
+    margin: 0px;
+  }
+   .userRank{
+      color: $stroke-color;
+    }
+  
+}
+
+.contact {
+  width: 80%;
+  margin: auto;
+  // background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  // box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid div {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid label {
+  margin-bottom: 5px;
+}
+
+.grid input,
+.grid textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  resize: none; /* Disable textarea resize */
+}
+
+.grid input[disabled],
+.grid textarea[disabled] {
+  background-color: #f9f9f9;
+  color: #333;
+  cursor: not-allowed;
+}
+
+.socialBtn{
+  position: absolute;
+    right: 100px;
+    top: 15px;
+
+    .btnMessage{
+      background-color: $white-color;
+      color: $black-color;
+      border: 1px solid $black-color
+    }
+    .btnFollow{
+      background-color: $black-color;
+    }
+}
+.icon {
+  margin-right: 5px; 
+}

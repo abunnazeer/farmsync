@@ -1,0 +1,35 @@
+// styles/FormContainer.module.scss
+
+.container {
+  position: fixed; 
+  top: 45%; 
+  right: 100px; 
+  transform: translateY(-50%); 
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  width: 450px;
+}
+
+.logoPlaceholder {
+  margin-bottom: 10px;
+  text-align: center;
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.form {
+  width: 100%;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+}

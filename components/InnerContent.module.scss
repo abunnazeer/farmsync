@@ -1,0 +1,8 @@
+.innerContent {
+  background-color: #fff;
+  border-radius: 12px;
+  height: auto;
+  max-height: 400px; /* Optional: Set a maximum height */
+  overflow-y: auto; /* Optional: Add scrollbars if content exceeds max-height */
+  padding: 20px; /* Add padding to the inner content */
+}

@@ -1,0 +1,40 @@
+// components/TopHeader.module.scss
+
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+
+  .searchBar {
+    flex: 1;
+
+    input {
+     
+  // padding: 15px 10px;
+      width: 30%;
+     
+      border: 1px solid #F6F8FA;
+      border-radius: 4px;
+      background-color: #F6F8FA;
+
+    }
+  }
+
+  .notifications {
+    display: flex;
+    align-items: center;
+
+    .notificationIcon {
+      font-size: 1.5rem;
+      margin-left: 20px;
+      cursor: pointer;
+
+      &:hover {
+        color: #007bff;
+      }
+    }
+  }
+}
